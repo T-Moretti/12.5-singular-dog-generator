@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Dog Selector</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Dog Selector!</h1>
+
+        <form>
+          <label for="dog-search">What kind of doggo are you looking for?</label>  
+          <input type="search" id="site-search" name="dog-search" aria-label="Search through site content">
+          <input type="submit" value="Get a dog pic!">
+        </form>
+        <section class="results hidden">
+          <h2>ARF!</h2>
+          <div id="image-holder">
+          </div>     
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
